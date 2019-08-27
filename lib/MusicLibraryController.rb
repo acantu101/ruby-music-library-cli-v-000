@@ -22,15 +22,15 @@ class MusicLibraryController
     answer = gets.chomp
    loop do answer
      if answer == "list songs"
-       list_songs
+       self.list_songs
      elsif answer == "list artists"
-       list_artists
+       self.list_artists
      elsif answer == "list genres"
-       list_genres
+       self.list_genres
      elsif answer == "list artist"
-       list artist
+       self.list artist
      elsif answer == "list genre"
-       list genre
+       self.list genre
      elsif answer == "exit"
        break
      else
