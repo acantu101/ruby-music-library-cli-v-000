@@ -20,8 +20,7 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     answer = gets.chomp
-   loop do answer
-     if answer == "exit"
+   answer until answer == "exit"
        break
      elsif answer == "list songs"
       list_songs
