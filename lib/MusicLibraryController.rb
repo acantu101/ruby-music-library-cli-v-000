@@ -21,7 +21,7 @@ class MusicLibraryController
 
     answer = gets.chomp
    loop do answer
-     if answer == "exit"
+     if answer == "exit" || answer == nil
        break
      elsif answer == "list songs"
       list_songs
@@ -35,7 +35,6 @@ class MusicLibraryController
        list_genre
      end
       end
-
   end
 
 def list_songs
