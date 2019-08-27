@@ -25,6 +25,15 @@ class MusicLibraryController
        list_songs
      elsif answer == "list artists"
        list_artists
+     elsif
+       list_genres
+     elsif
+       list artist
+     elsif
+       list genre
+
+
+
   elsif answer == "exit"
       break
     end
