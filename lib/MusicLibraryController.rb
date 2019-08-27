@@ -21,9 +21,9 @@ class MusicLibraryController
 
     answer = gets.chomp
    loop do answer
-     unless answer == "exit"
+     if answer == "exit"
        break
-     if answer == "list songs"
+     elsif answer == "list songs"
        self.list_songs
      elsif answer == "list artists"
        self.list_artists
