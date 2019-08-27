@@ -32,8 +32,8 @@ class MusicLibraryController
      elsif answer == "list genre"
        list genre
      elsif answer == "exit"
-      break
-    end
+       break
+      end
     end
 
   end
