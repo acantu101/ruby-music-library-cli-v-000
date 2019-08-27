@@ -33,6 +33,8 @@ class MusicLibraryController
        list genre
      elsif answer == "exit"
        break
+     else
+       break
       end
     end
 
