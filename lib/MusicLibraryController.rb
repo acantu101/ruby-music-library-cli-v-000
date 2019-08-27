@@ -30,9 +30,11 @@ class MusicLibraryController
      elsif answer == "list genres"
        list_genres
      elsif answer == "list artist"
-       list_artist
+       list_songs_by_artist
      elsif answer == "list genre"
-       list_genre
+       list_songs_by_genre
+     elsif answer == "play_song"
+       play_song
       end
     end
   end
