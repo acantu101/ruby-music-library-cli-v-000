@@ -21,7 +21,7 @@ class MusicLibraryController
 
     answer = gets.chomp
    loop do answer
-     if answer == "list_songs"
+     if answer == "list songs"
        list_songs
      elsif answer == "list artists"
        list_artists
