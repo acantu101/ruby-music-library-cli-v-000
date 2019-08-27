@@ -28,9 +28,9 @@ class MusicLibraryController
      elsif answer == "list genres"
        self.list_genres
      elsif answer == "list artist"
-       self.list artist
+       self.list_artist
      elsif answer == "list genre"
-       self.list genre
+       self.list_genre
      elsif answer == "exit"
        break
      else
