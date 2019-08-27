@@ -34,7 +34,7 @@ class MusicLibraryController
      elsif answer == "exit"
       break
     end
-end
+    end
 
   end
 
