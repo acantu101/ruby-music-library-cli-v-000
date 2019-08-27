@@ -24,17 +24,16 @@ class MusicLibraryController
      if answer == "exit"
        break
      elsif answer == "list songs"
-       self.list_songs
+      list_songs
      elsif answer == "list artists"
-       self.list_artists
+       list_artists
      elsif answer == "list genres"
-       self.list_genres
+       list_genres
      elsif answer == "list artist"
-       self.list_artist
+       list_artist
      elsif answer == "list genre"
-       self.list_genre
-     else
-       break
+       list_genre
+     end
       end
     end
   end
