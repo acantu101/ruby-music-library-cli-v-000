@@ -27,7 +27,7 @@ class MusicLibraryController
        list_artists
   elsif answer == "exit"
       break
-end
+    end
 end
 
   end
